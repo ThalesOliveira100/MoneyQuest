@@ -1,0 +1,164 @@
+/* 
+Palheta de cores
+Azul claro: #0091FF
+Marrom claro: #BF8630
+Amalaranja: #FF9900
+Azul escuro: #3979AA
+Marrom escuro: #806640
+Cinza: #394955
+Branco: white
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3979AA;
+    color: white;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.login a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.login .btn {
+    background-color: #ff9800;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url('/img/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    height: 558px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner .banner-text h2 {
+    font-size: 48px;
+}
+
+.banner .btn {
+    background-color: #BF8630;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.banner .prim {
+    background-color: #ff9800;
+}
+
+.intro {
+    padding: 40px 20px;
+    background-color: #3979AA;
+    text-align: center;
+    color: white;
+}
+
+.modules {
+    padding: 40px 20px;
+    background-color: #394955;
+    color: #ff9800;
+    color: white;
+}
+
+.modules-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.module-card {
+    background-color: #BF8630;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.ranking {
+    padding: 40px 20px;
+    background-color: #3979AA;
+    color: white;
+}
+
+.ranking table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ranking th {
+    text-emphasis: bold;
+    font-size: 20px;
+}
+
+.ranking th, .ranking td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
